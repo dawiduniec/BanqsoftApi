@@ -42,6 +42,7 @@ namespace BanqsoftApi.Domain.Loan.UseCase
 
                 result.MonthlyLoanRates.Add(new MonthlyLoanRate
                 {
+                    Index = i,
                     Interest = interest,
                     Principal = principal,
                     Balance = balance, 
